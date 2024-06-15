@@ -1,9 +1,12 @@
-subsampling: {}
+subsampling:
+    ClippingSubsampler:
+        args:
+            precision: keyframe_adjusted
 
 reading:
     yt_args:
-        download_size: 360
-        download_audio: True
+        download_size: 720
+        download_audio: False
         yt_metadata_args:
             writesubtitles:  True
             subtitleslangs: ['en']
