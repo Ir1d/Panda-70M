@@ -1,6 +1,6 @@
 """logging utils for the downloader"""
 
-import wandb
+# import wandb
 import time
 from collections import Counter
 import fsspec
