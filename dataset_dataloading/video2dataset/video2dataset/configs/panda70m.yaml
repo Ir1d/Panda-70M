@@ -1,7 +1,4 @@
-subsampling:
-    ClippingSubsampler:
-        args:
-            precision: keyframe_adjusted
+subsampling: {}
 
 reading:
     yt_args:
